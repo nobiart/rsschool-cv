@@ -1,1 +1,1 @@
-# rsschool-cv
+[rsschool-cv](https://github.com/nobiart/rsschool-cv/cv)
