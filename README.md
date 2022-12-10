@@ -1,1 +1,2 @@
-[rsschool-cv](https://nobiart.github.io/rsschool-cv/cv)
+# rsschool-cv
+https://nobiart.github.io/rsschool-cv/
