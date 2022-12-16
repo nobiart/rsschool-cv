@@ -44,7 +44,7 @@ body {
 }
 
 .header__nav li a {
-    color: #fff;
+    color: #fafefd;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -62,9 +62,13 @@ body {
 .aside {
     width: 350px;
     flex: 0 0 35%;
+    color: #fafefd;
+    padding-bottom: 32px;
+    background-color: #3d4240;
 }
 
-.aside__header {
+/* aside header start */
+.aside-header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -76,23 +80,117 @@ body {
     background-color: #57c9eb;
 }
 
-.personal-photo {
+.aside-header__photo {
     width: 200px;
     height: 200px;
+    border: 1px solid #fafefd;
     border-radius: 50%;
     overflow: hidden;
 }
 
-.personal-photo img {
+.aside-header__photo img {
     max-width: 100%;
 }
 
-.personal-name {
+.aside-header__name {
     font-size: 36px;
     margin: 24px 0 12px;
 }
 
-.personal-position {
+.aside-header__position {
     margin: 0;
 }
+/* aside header end */
+
+/* aside section start */
+.aside-section {
+    padding: 32px 32px 0;
+}
+
+.aside-heading {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #fafefd;
+}
+
+.aside-heading__icon {
+    margin: 0 8px 0 4px;
+}
+
+.aside-heading__icon svg {
+    height: 18px;
+    fill: #57c9eb;
+}
+
+/* aside list start */
+.aside-list {
+    margin: 32px 0 0;
+    padding: 0;
+    list-style: none;
+}
+
+.aside-list__item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.aside-list__icon {
+    margin-right: 12px;
+}
+
+.aside-list__icon svg {
+    width: 18px;
+    fill: #fafefd;
+}
+
+.aside-list__text {
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-list__title {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.aside-list__info {
+    font-size: 14px;
+    color: #929795;
+}
+
+/* aside progress list start */
+.aside-progress-list {
+    margin: 32px 0 0;
+    padding: 0;
+    list-style: disc;
+}
+
+.aside-progress-list__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.aside-progress-list__text {
+    font-weight: 600;
+}
+
+.aside-progress-list__progress {
+    width: 130px;
+    height: 10px;
+    background-color: #929795;
+}
+
+.aside-progress-list__progress-active {
+    display: block;
+    height: 100%;
+    background-color: #57c9eb;
+}
+/* aside progress list end */
+/* aside list end */
+/* aside section end */
 /* aside end */
