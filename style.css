@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
@@ -12,7 +16,7 @@ body {
 }
 
 .container {
-    width: 980px;
+    max-width: 980px;
     margin: 24px auto;
     border: 1px solid #e2e4e7;
     border-radius: 12px;
@@ -72,7 +76,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-weight: 800;
+    font-weight: 700;
     text-transform: uppercase;
     color: #3b4443;
     text-align: center;
@@ -194,3 +198,58 @@ body {
 /* aside list end */
 /* aside section end */
 /* aside end */
+
+/* content start */
+.content {
+    padding: 32px;
+    color: #3b4443;
+}
+
+.content-section {
+    padding-bottom: 32px;
+}
+
+.content-section:last-child {
+    padding-bottom: 0;
+}
+
+.content-heading {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 4px;
+    border-bottom: 2px solid #3b4443;
+}
+
+.content-heading__icon {
+    margin: 0 8px 0 4px;
+}
+
+.content-heading__icon svg {
+    height: 18px;
+    fill: #57c9eb;
+}
+
+.content-item {
+    padding-bottom: 24px;
+}
+
+.content-item:last-child {
+    padding-bottom: 0;
+}
+
+.content-item__heading {
+    font-weight: 600;
+    margin: 0 0 8px;
+}
+
+.content-item ul {
+    margin: 16px 0;
+    padding: 0 0 0 24px;
+}
+
+.content-item li {
+    line-height: 1.25;
+    margin-bottom: 4px;
+}
+/* content end */
