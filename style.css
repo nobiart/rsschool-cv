@@ -209,8 +209,12 @@ body {
     padding-bottom: 32px;
 }
 
-.content-section:last-child {
+.content-section:last-of-type {
     padding-bottom: 0;
+}
+
+.content-section pre {
+    margin: 0;
 }
 
 .content-heading {
