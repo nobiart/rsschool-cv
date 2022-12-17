@@ -62,6 +62,12 @@ body {
     display: flex;
 }
 
+@media (max-width: 767px) {
+    .main-page {
+        flex-direction: column;
+    }
+}
+
 /* aside start */
 .aside {
     width: 350px;
@@ -69,6 +75,13 @@ body {
     color: #fafefd;
     padding-bottom: 32px;
     background-color: #3d4240;
+}
+
+@media (max-width: 767px) {
+    .aside {
+        width: 100%;
+        flex: 0 0 100%;
+    }
 }
 
 /* aside header start */
