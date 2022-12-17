@@ -217,6 +217,7 @@ body {
     font-size: 24px;
     font-weight: 600;
     text-transform: uppercase;
+    margin: 12px 0 32px;
     padding-bottom: 4px;
     border-bottom: 2px solid #3b4443;
 }
@@ -251,5 +252,9 @@ body {
 .content-item li {
     line-height: 1.25;
     margin-bottom: 4px;
+}
+
+.content-item p {
+    margin: 0 0 8px;
 }
 /* content end */
