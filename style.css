@@ -216,6 +216,18 @@ body {
     height: 100%;
     background-color: #57c9eb;
 }
+
+.progress--ru {
+    width: 100%;
+}
+
+.progress--ro {
+    width: 90%;
+}
+
+.progress--en {
+    width: 55%;
+}
 /* aside progress list end */
 /* aside list end */
 /* aside section end */
